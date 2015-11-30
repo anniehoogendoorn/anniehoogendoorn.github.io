@@ -657,6 +657,11 @@ section#contact {
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+    color: #fff;
+}
+
+section#contact p {
+  font-size: 16px;
 }
 
 section#contact .section-heading {
