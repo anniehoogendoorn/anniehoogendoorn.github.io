@@ -76,6 +76,11 @@ h6 {
     color: #fff;
     background-color: #18BC9C;
 }
+.btn-default {
+    color: #fff;
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+}
 
 .btn-primary:hover,
 .btn-primary:focus,
