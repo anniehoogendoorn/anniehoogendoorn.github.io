@@ -77,7 +77,7 @@ h6 {
     background-color: #18BC9C;
 }
 .btn-default {
-    color: #fff;
+    color: #333;
     background-color: #18BC9C;
     border-color: #18BC9C;
 }
@@ -87,7 +87,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #149e83;
     color: #fff;
     background-color: #149e83;
 }
