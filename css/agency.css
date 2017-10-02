@@ -38,6 +38,10 @@ a {
     color: #18BC9C;
 }
 
+#contact a {
+  color: #fff;
+}
+
 a:hover,
 a:focus,
 a:active,
@@ -77,9 +81,15 @@ h6 {
     background-color: #18BC9C;
 }
 .btn-default {
-    color: #333;
+    color: #fff;
     background-color: #18BC9C;
     border-color: #18BC9C;
+}
+
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #149e83;
+    border-color: #149e83;
 }
 
 .btn-primary:hover,
@@ -343,13 +353,14 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    line-height: 1.75;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
     section {
         padding: 150px 0;
     }
-}
+}*/
 
 .service-heading {
     margin: 15px 0;
